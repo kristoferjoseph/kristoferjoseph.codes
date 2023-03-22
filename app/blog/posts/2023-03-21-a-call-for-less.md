@@ -1,6 +1,6 @@
 ---
-title: How to use this template
-description: "Tips on how to customize this blog template."
+title: The revolution will not be tweeted
+description: "A call to arms for those tired of paying for what should be the free and open web"
 published: "March 8, 2023"
 ---
 
@@ -31,6 +31,8 @@ Styles for this template are applied in the following places:
 1. `public/css/a11y-dark.min.css`: This stylesheet applies syntax highlighting to code blocks. Feel free to swap this out with another [HighlightJS theme](https://highlightjs.org/static/demo/) of your choosing (and update the link to this stylesheet in your `head.mjs` file).
 1. `app/lib/markdown-class-mappings.mjs`: This file exports an object of HTML element names matched to arrays of classes from [Enhance’s utility class system](https://enhance.dev/docs/learn/concepts/styling/utility-classes). When your markdown files are converted to HTML, these classes will be attached to the respective HTML elements.
 1. `<style>` blocks in the Single File Components (SFCs), which live in the `app/elements` directory. Styles written in these style blocks will be scoped to the custom elements they're defined in.
+
+> An elegant solution can only be found when the problem is understood
 
 This template supports dark mode out of the box — try switching between light and dark mode in your operating system settings to see this in action!
 

@@ -1,15 +1,15 @@
-import { getLinkTag } from '@enhance/arc-plugin-styles/get-styles'
+import { getStyleTag } from '@enhance/arc-plugin-styles/get-styles'
 
 export default function Head() {
   return`
     <!DOCTYPE html>
     <html lang='en'>
       <head>
-        <title>Enhance Blog Template</title>
+        <title>Kristofer Joseph</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        ${getLinkTag()}
+        ${getStyleTag()}
         <link rel='stylesheet' href='/_public/css/global.css' />
-        <link rel='stylesheet' href='/_public/css/a11y-dark.min.css' />
+        <link rel='stylesheet' href='/_public/css/dark-violet.css' />
       </head>
   `
 }

@@ -8,6 +8,7 @@ node_modules/
 public/static.json
 public/bundles/
 public/pages/
+public/typeface/
 
 # Architect CloudFormation
 sam.json
